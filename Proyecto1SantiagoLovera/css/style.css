@@ -146,9 +146,6 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
-a:hover{
-    color: black;
-}
  .contenedor-oferta-academica {
     background-color: #9999 ;
     margin-top: 0px;
@@ -199,7 +196,31 @@ a:hover{
     transition: background-color 0.3s ease;
     margin: 0 auto; 
 }
+.caja1 a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; 
+}
 
+.caja1 a {
+    background-color: #007bff; 
+    color: #ffffff;
+    border: 1px solid #007bff;
+}
+
+.caja1 a:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.caja1 a:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
 .primary-button, .secondary-button {
     background-color: #007bff; 
     color: #ffffff;
@@ -223,9 +244,22 @@ a:hover{
         margin: 15px 0;
     }
 }
-.footerL img {
+.Final img {
     margin-top: 30px;
     max-width: 100%;
     height: auto; 
     width: 100%;
-  }
+}
+footer ul{
+    width: 97%;
+    background-color: #555;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none ;
+    padding: 2%;
+}
+footer a li{
+    color: aliceblue;
+    display: block;
+    text-align: center;
+}
